@@ -4,6 +4,14 @@
 - Luis Felipe Urquijo Vargas
 - Juan Pablo Ramirez
 
+## Requerimientos del Proyecto
+
+- **Implementación en grupo**.
+- **Despliegue en GCP o AWS**. Cada estudiante recibirá una invitación para unirse a la nube GCP.
+- **Despliegue de un clúster Kubernetes con Microk8s en al menos tres (3) máquinas virtuales**.
+- **No utilizar un clúster como servicio gestionado por el proveedor**.
+
+
 En este proyecto, implementaremos una aplicación de WordPress utilizando MicroK8s. Para ello, hemos optado por utilizar Google Cloud Platform (GCP), donde hemos creado instancias para actuar como nodo master y nodos worker, donde ejecutaremos MicroK8s. Esta herramienta nos facilita la creación de un clúster de Kubernetes personalizado. Además, hemos intentado configurar una máquina adicional como servidor NFS para garantizar la persistencia de los datos de WordPress y la base de datos en caso de que algún pod falle.
 
 ![image](https://github.com/juanvx6/proyecto2-telematica/assets/96350704/19076f3a-cd7a-4674-9c6f-6c09c6bdd926)
