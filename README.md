@@ -64,6 +64,7 @@ Aunque configuramos los archivos YAML, encontramos problemas con la configuraci�
 - Configuración del clúster de alta disponibilidad con Microk8s.
 - Despliegue de la aplicación mediante archivos YAML.
 - Configuración de wordpress
+- Configuración del balanceador de carga entre los servicios de wordpress
 
 ### Aspectos No Cumplidos
 - Configuración y funcionamiento del servidor NFS para volúmenes compartidos.
