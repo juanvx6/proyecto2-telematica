@@ -4,16 +4,16 @@
 - Luis Felipe Urquijo Vargas
 - Juan Pablo Ramirez
 
-Iniciamos creando una VPC en AWS, la cual va a tener 6 sub-redes 3 publicas y 3 privadas, esto con el fin de mantener una alta disponibilidad,
-pues si por algun motivo una zona no esta funcionando podemos referinos a la otra.
+En este proyecto, implementaremos una aplicación de WordPress utilizando MicroK8s. Para ello, hemos optado por utilizar Google Cloud Platform (GCP), donde hemos creado instancias para actuar como nodo master y nodos worker, donde ejecutaremos MicroK8s. Esta herramienta nos facilita la creación de un clúster de Kubernetes personalizado. Además, hemos intentado configurar una máquina adicional como servidor NFS para garantizar la persistencia de los datos de WordPress y la base de datos en caso de que algún pod falle.
 
-![image](https://github.com/juanvx6/reto4Topicos/assets/96350704/d09f4da1-b467-4f13-87dd-7f467e51ab6e)
+![image](https://github.com/juanvx6/proyecto2-telematica/assets/96350704/19076f3a-cd7a-4674-9c6f-6c09c6bdd926)
+![image](https://github.com/juanvx6/proyecto2-telematica/assets/96350704/6762f1e9-702c-4b41-bbb1-68938099b8a2)
 
 Luego, Creamos un cluster EKS, este cluster es donde vamos a subir toda nuestra aplicación, vamos a linkearlo con la VPC que creamos, esta VPC 
 tambien debe tener un grupo de seguridad el cual puede ser por defecto o uno creado. El EKS cluster hay que crear nodos que van a contener los 
 pods de nuestra app, se puede configurar por medio de cloudshell o desde la interfaz del cluster EKS.
 
-![image](https://github.com/juanvx6/reto4Topicos/assets/96350704/4c0a044b-b59f-4494-8a98-50f6a5e8991d)
+![image](https://github.com/juanvx6/proyecto2-telematica/assets/96350704/7e25732d-41a3-4968-940d-e311f761d1c8)
 
 Para la configuración de kubernetes, ingresamos al cluster utilizando el comando:
 - aws eks --region us-east-1 update-kubeconfig --name reto4T
