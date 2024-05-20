@@ -8,6 +8,7 @@ En este proyecto, implementaremos una aplicación de WordPress utilizando MicroK
 
 ![image](https://github.com/juanvx6/proyecto2-telematica/assets/96350704/19076f3a-cd7a-4674-9c6f-6c09c6bdd926)
 ![image](https://github.com/juanvx6/proyecto2-telematica/assets/96350704/6762f1e9-702c-4b41-bbb1-68938099b8a2)
+![image](https://github.com/juanvx6/proyecto2-telematica/assets/96350704/fa5293c4-3304-46cf-8209-ed5ec4163da6)
 
 Luego, Creamos un cluster EKS, este cluster es donde vamos a subir toda nuestra aplicación, vamos a linkearlo con la VPC que creamos, esta VPC 
 tambien debe tener un grupo de seguridad el cual puede ser por defecto o uno creado. El EKS cluster hay que crear nodos que van a contener los 
