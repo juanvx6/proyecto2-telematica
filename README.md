@@ -57,6 +57,9 @@ Se configuraron los archivos YAML necesarios para el despliegue de la aplicació
 ### 5. Configuración del Servidor NFS
 Aunque configuramos los archivos YAML, encontramos problemas con la configuración del servidor NFS. Este aspecto no fue completado exitosamente.
 
+![image](https://github.com/juanvx6/proyecto2-telematica/assets/96350704/0a71e8f3-1dcc-4653-8219-3228938488a5)
+
+
 ### Aspectos Cumplidos
 - Creación y configuración de máquinas virtuales en GCP.
 - Instalación y configuración de Microk8s en cada instancia.
